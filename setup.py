@@ -31,5 +31,5 @@ setup(
     ],
     packages=["spreadsheetspace"],
     include_package_data=True,
-    install_requires=["requests"]
+    install_requires=["requests", "pandas"]
 )
