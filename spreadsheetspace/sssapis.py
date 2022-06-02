@@ -55,7 +55,7 @@ class SSSAPIS:
             "rows": rows,
             "cols": cols
         }
-        self.createPrivateView(data=data)
+        return self.createPrivateView(data=data)
 
     def updateView(self, data, template=None):
         """
